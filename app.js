@@ -5,29 +5,29 @@
             var result = "犬タイプ"; // デフォルトの値
 
             if (gender === "女" && number === 1) {
-                result = "+犬タイプ+";
+                result = "犬タイプ";
             } else if (gender === "男" && number === 1) {
-                result = "+キツネタイプ+";
+                result = "キツネタイプ";
             } else if (gender === "女" && number === 2) {
-                result = "+猫タイプ"+;
+                result = "猫タイプ";
             } else if (gender === "男" && number === 2) {
-                result = "+犬タイプ+";
+                result = "犬タイプ";
             } else if (gender === "女" && number === 3) {
-                result = "+くまタイプ+";
+                result = "くまタイプ";
             } else if (gender === "男" && number === 3) {
-                result = "+猫タイプ+";
+                result = "猫タイプ";
             } else if (gender === "女" && number === 4) {
-                result = "+うさぎタイプ+";
+                result = "うさぎタイプ";
             } else if (gender === "男" && number === 4) {
-                result = "+トラタイプ+";
+                result = "トラタイプ";
             } else if (gender === "女" && number === 5) {
-                result = "+キツネタイプ+";
+                result = "キツネタイプ";
             } else if (gender === "男" && number === 5) {
-                result = "+うさぎタイプ+";
+                result = "うさぎタイプ";
 　　　　　　} else if (gender === "女" && number === 6) {
-                result = "+ひつじタイプ+";
+                result = "ひつじタイプ";
 　　　　　　} else if (gender === "男" && number === 6) {
-                result = "+くまタイプ+";
+                result = "くまタイプ";
 
             document.getElementById('result-output').innerText = "あなたの動物のタイプは？【" + result + "】です";
         }
