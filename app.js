@@ -28,6 +28,7 @@
                 result = "ひつじタイプ";
 　　　　　　} else if (gender === "男" && number === 6) {
                 result = "くまタイプ";
-
+           }
+        
             document.getElementById('result-output').innerText = "あなたの動物のタイプは？【" + result + "】です";
         }
