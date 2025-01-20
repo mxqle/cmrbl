@@ -1,6 +1,6 @@
 
         function checkFortune() {
-            var gender = document.getElementById('colour-select').value;
+            var gender = document.getElementById('gender-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "動物"; // デフォルトの値
 
