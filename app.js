@@ -16,11 +16,6 @@
                 result = "くまタイプ";
             } else if (gender === "男" && number === 3) {
                 result = "猫タイプ";
-            } else if (gender === "女" && number === 4) {
-                result = "うさぎタイプ";
-            } else if (gender === "男" && number === 4) {
-                result = "トラタイプ";
-        
            }
         
             document.getElementById('result-output').innerText = "あなたの動物のタイプは？【" + result + "】です";
