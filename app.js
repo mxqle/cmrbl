@@ -20,14 +20,7 @@
                 result = "うさぎタイプ";
             } else if (gender === "男" && number === 4) {
                 result = "トラタイプ";
-            } else if (gender === "女" && number === 5) {
-                result = "キツネタイプ";
-            } else if (gender === "男" && number === 5) {
-                result = "うさぎタイプ";
-　　　　　　} else if (gender === "女" && number === 6) {
-                result = "ひつじタイプ";
-　　　　　　} else if (gender === "男" && number === 6) {
-                result = "くまタイプ";
+        
            }
         
             document.getElementById('result-output').innerText = "あなたの動物のタイプは？【" + result + "】です";
