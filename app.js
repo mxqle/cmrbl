@@ -2,7 +2,7 @@
         function checkFortune() {
             var gender = document.getElementById('colour-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
-            var result = "犬タイプ"; // デフォルトの値
+            var result = "動物"; // デフォルトの値
 
             if (gender === "女" && number === 1) {
                 result = "犬タイプ";
