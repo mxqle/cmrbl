@@ -18,5 +18,5 @@
                 result = "猫タイプ";
            }
         
-            document.getElementById('result-output').innerText = "あなたの動物のタイプは？【" + result + "】です";
+            document.getElementById('result-output').innerText = "あなたの動物のタイプは【" + result + "】です";
         }
